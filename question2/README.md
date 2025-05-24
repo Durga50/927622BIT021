@@ -1,3 +1,37 @@
+# Stock Price Aggregation Frontend
+
+This is a React-based frontend application for the Stock Price Aggregation Problem. The application provides real-time analytical insights into stock prices and their correlations.
+
+## Features
+
+- **Stock Page:**
+  - Displays a chart of stock prices over a specified time frame.
+  - Highlights the average stock price.
+  - Allows users to select different time intervals.
+  - Displays key stock details on hover or selection of data points.
+
+- **Correlation Heatmap:**
+  - Shows variations in correlation between stocks over the last "m" minutes.
+  - Displays average and standard deviation of stock prices on hover.
+  - Provides a color legend indicating correlation strength.
+
+## Technologies Used
+
+- React
+- Material UI
+
+## Setup Instructions
+
+1. Clone the repository.
+2. Navigate to the `Question2` directory.
+3. Install dependencies using `npm install`.
+4. Start the application using `npm start`.
+
+## Notes
+
+- The application runs on `http://localhost:3000`.
+- Ensure the backend APIs are running and accessible for data retrieval.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
